@@ -1,0 +1,4 @@
+name = "DualNumbers"
+uuid = "8c0da7f4-441f-455f-bb52-bf2aba47a7a7"
+authors = ["Rokas Veitas <rveitas@perimeterinstitute.ca>"]
+version = "0.1.0"
