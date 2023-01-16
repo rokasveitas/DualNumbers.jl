@@ -1,5 +1,7 @@
 module DualNumbers
 
+using LinearAlgebra
+
 export Dual
 
 """
@@ -22,6 +24,6 @@ Base.inv(x::Dual) = Dual(inv(x.real), -x.dual / x.real^2)
 Base.:/(x::Dual, y::Dual) = x * inv(y)
 
 Base.:*(x::Number, y::Dual) = Dual(x * y.real, x * y.dual)
-
+Base.:*(x::Dual, y::Number) = Dual(x.real * y, x.dual * y)
 
 end # module DualNumbers
