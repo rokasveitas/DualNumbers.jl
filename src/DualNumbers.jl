@@ -1,12 +1,14 @@
 module DualNumbers
 
-using LinearAlgebra
 
 export Dual
+
+
 
 """
 	Dual: A dual number
 """
+
 
 struct Dual{T}
 	real::T

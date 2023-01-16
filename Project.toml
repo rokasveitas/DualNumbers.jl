@@ -2,3 +2,6 @@ name = "DualNumbers"
 uuid = "8c0da7f4-441f-455f-bb52-bf2aba47a7a7"
 authors = ["Rokas Veitas <rveitas@perimeterinstitute.ca>"]
 version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
